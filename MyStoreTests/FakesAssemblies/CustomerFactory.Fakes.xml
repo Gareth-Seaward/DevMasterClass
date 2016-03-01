@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomerFactory.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:CustomerFactory.Fakes.ShimFactory`1">
+            <summary>Shim type of CustomerFactory.Factory`1</summary>
+        </member>
+        <member name="M:CustomerFactory.Fakes.ShimFactory`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:CustomerFactory.Fakes.ShimFactory`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:CustomerFactory.Fakes.ShimFactory`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:CustomerFactory.Fakes.ShimFactory`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:CustomerFactory.Fakes.ShimFactory`1.CreateString">
+            <summary>Sets the shim of Factory`1.Create(String type)</summary>
+        </member>
+        <member name="P:CustomerFactory.Fakes.ShimFactory`1.LoadContainer">
+            <summary>Sets the shim of Factory`1.LoadContainer()</summary>
+        </member>
+        <member name="P:CustomerFactory.Fakes.ShimFactory`1.StaticConstructor">
+            <summary>Sets the shim of Factory`1.Factory`1()</summary>
+        </member>
+    </members>
+</doc>
